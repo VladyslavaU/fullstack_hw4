@@ -12,72 +12,78 @@
 <body>
     <div class="wrapper">
         <header class="header">
-            <h1 class="header__heading wrapper__header text">this is
-                <span class="header__title any_header">sunset</span> page
+            <h1 class="header__heading">this is
+                <span class="header__heading--spec">sunset</span> page
             </h1>
             <div class="header__img-wrap">
                 <img class="img__header" src="img/sunset.png" alt="sunset" />
             </div>
         </header>
     </div>
-    <div class="wrapper wrapper__content">
-        <div class="wrapper__text_menu">
-            <div>
-                <h2 class="any_header header__heading header__subheader text">sunset heading</h2>
-                <p class="wrapper__p wrapper__p1 text">
-                    <span class="wrapper__p wrapper__text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Mauris augue dolor, mattis eu interdum in, interdum vitae massa.
-                        Nulla congue ligula quis sollicitudin ultrices.
-                        Mauris commodo erat augue, non volutpat velit volutpat nec.
-                        Pellentesque id odio blandit, posuere est gravida, convallis nisl.
-                        Phasellus ac nisi at arcu iaculis semper non eu elit. <br />
-                        Phasellus porttitor iaculis est sed pellentesque.
-                        Integer libero dui, congue et metus ut, mattis auctor sem.
-                        Etiam gravida dui ut congue aliquam. Maecenas ut enim felis.</span>
+    <div class="wrapper article">
+        <main class="main">
+            <section>
+                <h2 class="header article__header">sunset heading</h2>
+                <p class="article__item article__item--main">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Mauris augue dolor, mattis eu interdum in, interdum vitae massa.
+                    Nulla congue ligula quis sollicitudin ultrices.
+                    Mauris commodo erat augue, non volutpat velit volutpat nec.
+                    Pellentesque id odio blandit, posuere est gravida, convallis nisl.
+                    Phasellus ac nisi at arcu iaculis semper non eu elit. <br />
+                    Phasellus porttitor iaculis est sed pellentesque.
+                    Integer libero dui, congue et metus ut, mattis auctor sem.
+                    Etiam gravida dui ut congue aliquam. Maecenas ut enim felis.
                 </p>
-            </div>
-            <section class="wrapper menu">
-                <span menu__items>
-                    <span class="any_header menu__header text">menu</span>
-                    <ul class="menu__items">
-                        <li class="menu__item">link 1</li>
-                        <li class="menu__item">link 2</li>
-                        <li class="menu__item">link 3</li>
-                    </ul>
-                </span>
             </section>
-        </div>
+            <div class="nav-wrap">
+                <h3 class="nav-heading">Menu</h3>
+                <ul class="nav">
+                    <li class="nav__item">
+                        <a class="nav__link" href="#">Link 1</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="#">Link 2</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="#">Link 3</a>
+                    </li>
+                </ul>
+            </div>
     </div>
-    <div class="wrapper wrapper__content">
-        <h2 class="any_header header__heading header__subheader text">sunset heading</h2>
-        <p class="wrapper__p wrapper__p2 text">
-            <span class="upper">Lorem ipsum dolor sit amet, consectetur adipiscing
+    </div>
+    <div class="wrapper article">
+        <h2 class="header article__header">sunset heading</h2>
+        <p class="article__item article__item--reg">
+            <span class="article__text--uppercase">Lorem ipsum dolor sit amet, consectetur adipiscing
                 elit. </span>
             Mauris augue dolor, mattis eu interdum in, interdum vitae massa.
             Nulla congue ligula quis sollicitudin ultrices.
             Mauris commodo erat augue, non volutpat velit volutpat nec.
             Pellentesque id odio blandit, posuere est gravida, convallis nisl.
-            <span class="colored">Phasellus ac nisi at arcu iaculis semper non eu elit.</span><br />
+            <span class="article__text--colored">Phasellus ac nisi at arcu iaculis semper non eu elit.</span><br />
             Phasellus porttitor iaculis est sed pellentesque.
             Integer libero dui, congue et metus ut, mattis auctor sem.
             Etiam gravida dui ut congue aliquam. Maecenas ut enim felis.
             Donec dignissim tempor enim. Nunc faucibus a leo nec congue.
-            Sed tellus diam, aliquam id lectus fermentum, <span class="linethrough">laoreet rhoncus erat</span>.
+            Sed tellus diam, aliquam id lectus fermentum, <span class="article__text--linethrough">laoreet rhoncus
+                erat</span>.
         </p>
-        <p class="wrapper__p wrapper__p2 text">Mauris gravida convallis auctor. Nulla facilisi.
+        <p class="article__item article__item--reg">Mauris gravida convallis auctor. Nulla facilisi.
             Suspendisse potenti. Nullam iaculis ornare arcu ut dignissim.
             Sed est urna, condimentum id massa eu, fringilla imperdiet purus.
             Praesent nec arcu a est convallis condimentum.
             In turpis tellus, sagittis finibus mi sit amet, ornare vulputate ante.</p>
     </div>
-    <div class="wrapper wrapper__content">
-        <footer class="wrapper__footer">
-            <p class="wrapper__footer__p">
-                <img src="img/back.gif" alt="line">
-                <span class="footer__p text"><span class="signature">2023</span>
-                    by <span class="signature text">Serge Nikiforov</span> - Design for students</span>
-            </p>
+    <div class="wrapper">
+        <footer class="footer">
+            <div class="footer__line">
+                <p class="footer__item">
+                    <span class="footer__item--spec">2023</span> by
+                    <span class="footer__item--spec">Serge Nikiforov</span> - Design for
+                    students
+                </p>
+            </div>
         </footer>
     </div>
 </body>
